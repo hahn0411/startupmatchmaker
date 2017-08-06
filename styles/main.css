@@ -3,8 +3,8 @@ font-size: 14px;
 }
 
 body{
-	max-width:900px;
-	margin: 2rem ;
+	max-width:100%;
+	margin: 0px ;
 }
 
 .main-header{
@@ -67,15 +67,16 @@ img {
 }
 
 .photo{
-	background-image: url('../assets/coworking.jpg');
+	background: url('../assets/coworking.jpg') center center no-repeat;
+	background-size: cover;
 	height: 600px;
+	padding: 3%;
 }
 
 .box{
 	width: 350px;
 	border: 1px solid #888888;
-	background-color: white;
-	opacity: 0.7;
+	background-color: rgba(255, 255, 255,0.7);
 	float: right;
 	vertical-align: middle;
 	padding: 1rem;
